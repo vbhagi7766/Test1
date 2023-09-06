@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center{text-align:center;color:blue;}
+    </style>
+</head>
+<body>
+    <h1 class="center">Registration Form</h1>
+    <center>
+        <table border="1" bordercolor="black" cellpadding="0" cellspacing="0">
+            <tr>
+                <td><label for="First Name" style="margin: 30px;"><b>First Name</b></label></td>
+                <td><input type="text" size="70"/></td>
+            </tr>
+            <tr>
+                <td><label for="Last name" style="margin: 30px;" ><b>Last Name</b></label></td>
+                <td><input type="text" size="70" ></td>
+            </tr>
+            <tr>
+                <td><label for="Email" style="margin: 40px;" ><b>Email</b></label></td>
+                <td><input type="Email" size="70"></td>
+            </tr>
+            <tr>
+                <td><label for="password" style="margin: 30px;" ><b>Password</b></label></td>
+                <td><input type="password" size="70" ></td>
+            </tr>
+            <tr>
+                <td><label for="repassword" style="margin: 5px;" ><b>Re-enter Password </b></label></td>
+                <td><input type="password" size="70" ></td>
+            </tr>
+            <tr>
+                <th rowspan="2"><label for="Gender" style="margin:30px;"><b>Gender:</b></label></th>
+                <td><input type="radio" id="Male" name="Gender" value="Male"/>
+                 <label for="Male">Male</label></td>
+            </td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="FeMale" name="Gender" value="Female">
+                    <label for="Female" >Female</label></td>
+            </tr>
+            <tr>
+                <th><label for="Age:"  style="margin: 30px;"><b>Age:</b></label></th>
+                <td><input type="text" size="70"/><br></td>
+            </tr>
+            <tr>
+                <td><label for="phone number" style="margin: 30px;"><b>Phone Number:</b></label></td>
+                <td><input type="tel" size="70"></td>
+            </tr>
+            <tr>
+                <th><label for="Address" style="margin: 30px;"  >Address</label></th>
+                <td><textarea id="Address" rows="5" cols="65"></textarea></td>
+            </tr>
+            <tr>
+                <th><label for="State" style="margin: 30px;">State</label></th>
+                <td><input type="text" size="70" ></td>
+            </tr>
+            <tr>
+                <th><label for="Country">Country</label></th>
+                <td><select name="Country">
+                <option value="choose your Country">choose your Country</option>
+                <option value="India">India</option>
+                <option value="other">Other</option>
+            </select></td>
+            </tr>
+            <tr>
+                <th>
+                 <label for="Languages">Languages known</label></th>
+                <td>
+                    <input type="checkbox" id="English" name="English" value="English">
+                    <label for="English">English</label>
+                    <input type="checkbox" id="Kannada" name="Kannada" value="Kannada">
+                    <label for="Kannada">Kannada</label>
+                    <input type="checkbox" id="Hindi" name="Hindi" value="Hindi">
+                    <label for="Hindi">Hindi</label>
+                    <input type="checkbox" id="Telugu" name="Telugu" value="Telugu">
+                    <label for="Telugu">Telugu</label>
+                </td> 
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox"  required >
+                <label for="check" style="border: 70px;"  > Hereby I declare all the given details are true</label></td>
+            </tr>
+            <tr >
+                <td colspan="3" style="text-align: right">Log in to <a href="https://learn.codemithra.com/login/index.php"target="_blank">Ethnus</a> website</td>
+            </tr> 
+        </table>
+        <input type="submit"value="Register">
+    </center>
+</body>
+</html>
